@@ -27,4 +27,4 @@ for page in range(start, end):
     speaker.say(pdfReader[page])
     print(pdfReader[page])
     speaker.runAndWait()
-    print('Hello')
+
